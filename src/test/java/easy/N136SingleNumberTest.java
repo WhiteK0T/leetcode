@@ -10,7 +10,9 @@ class N136SingleNumberTest {
 
     @Test
     void singleNumber() {
-        int actual = singleNumber.singleNumber(new int[]{4, 1, 2, 1, 2});
-        assertEquals(4, actual);
+        int[] nums = {4, 1, 2, 1, 2};
+        int actual = singleNumber.singleNumber(nums);
+        int expected = 4;
+        assertEquals(expected, actual);
     }
 }

@@ -10,28 +10,29 @@ class N104MaximumDepthOfBinaryTreeTest {
 
     N104MaximumDepthOfBinaryTree maximumDepthOfBinaryTree = new N104MaximumDepthOfBinaryTree();
 
-    TreeNode graph1 = TreeNodeUtil.generateGraphFromArray(new Integer[]{3, 9, 20, null, null, 15, 7});
-    TreeNode graph2 = TreeNodeUtil.generateGraphFromArray(new Integer[]{1, null, 2});
-
     /*
         Input: root = [3,9,20,null,null,15,7]
         Output: 3
     */
-
     @Test
     void maxDepth1() {
-        int actual = maximumDepthOfBinaryTree.maxDepth(graph1);
-        assertEquals(3, actual);
+        Integer[] srez = {3, 9, 20, null, null, 15, 7};
+        TreeNode graph = TreeNodeUtil.generateGraphFromArray(srez);
+        int actual = maximumDepthOfBinaryTree.maxDepth(graph);
+        int expected = 3;
+        assertEquals(expected, actual);
     }
 
     /*
         Input: root = [1,null,2]
         Output: 2
      */
-
     @Test
     void maxDepth2() {
-        int actual = maximumDepthOfBinaryTree.maxDepth(graph2);
-        assertEquals(2, actual);
+        Integer[] srez = {1, null, 2};
+        TreeNode graph = TreeNodeUtil.generateGraphFromArray(srez);
+        int actual = maximumDepthOfBinaryTree.maxDepth(graph);
+        int expected = 2;
+        assertEquals(expected, actual);
     }
 }

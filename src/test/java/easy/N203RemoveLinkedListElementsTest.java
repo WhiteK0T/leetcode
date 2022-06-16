@@ -15,7 +15,6 @@ class N203RemoveLinkedListElementsTest {
         Input: head = [1,2,6,3,4,5,6], val = 6
         Output: [1,2,3,4,5]
     */
-
     @Test
     void removeElements1() {
         ListNode head = ListNodeUtil.generateSinglyLinkedListFromArray(new Integer[]{1, 2, 6, 3, 4, 5, 6});
@@ -28,7 +27,6 @@ class N203RemoveLinkedListElementsTest {
         Input: head = [1,2,2,1], val = 2
         Output: [1,1]
     */
-
     @Test
     void removeElements2() {
         ListNode head = ListNodeUtil.generateSinglyLinkedListFromArray(new Integer[]{1, 2, 2, 1});
@@ -41,7 +39,6 @@ class N203RemoveLinkedListElementsTest {
         Input: head = [7,7,7,7], val = 7
         Output: []
     */
-
     @Test
     void removeElements3() {
         ListNode head = ListNodeUtil.generateSinglyLinkedListFromArray(new Integer[]{7, 7, 7, 7});
@@ -54,7 +51,6 @@ class N203RemoveLinkedListElementsTest {
         Input: head = [], val = 7
         Output: []
     */
-
     @Test
     void removeElements4() {
         ListNode node = removeLinkedListElements.removeElements(null, 7);
