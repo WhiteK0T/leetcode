@@ -17,6 +17,8 @@ public class N1TwoSum {
         Only one valid answer exists.
 
         Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+
+        https://leetcode.com/problems/two-sum/
      */
 
     public int[] twoSum(int[] nums, int target) {
