@@ -1,8 +1,6 @@
 package util;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 public final class TreeNodeUtil {
 
@@ -26,6 +24,33 @@ public final class TreeNodeUtil {
                 return root.left = new TreeNode(value);
             }
         }
+    }
+
+    public static boolean equalsBFS(TreeNode t1, TreeNode t2) {
+        Queue<TreeNode> queue1 = new LinkedList<>();
+        Queue<TreeNode> queue2 = new LinkedList<>();
+        queue1.offer(t1);
+        queue2.offer(t2);
+        while (!queue1.isEmpty() | !queue2.isEmpty()) {
+            TreeNode node1 = queue1.poll();
+            TreeNode node2 = queue2.poll();
+            if (node2 != null && node1 != null && node1.val != node2.val) {
+                return false;
+            }
+            if (node1 != null && node1.left != null) {
+                queue1.offer(node1.left);
+            }
+            if (node1 != null && node1.right != null) {
+                queue1.offer(node1.right);
+            }
+            if (node2 != null && node2.left != null) {
+                queue2.offer(node2.left);
+            }
+            if (node2 != null && node2.right != null) {
+                queue2.offer(node2.right);
+            }
+        }
+        return true;
     }
 
     public static TreeNode generateGraphFromArray(Integer[] srez) {
