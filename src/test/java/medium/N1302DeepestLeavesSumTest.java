@@ -36,8 +36,8 @@ public class N1302DeepestLeavesSumTest {
     }
 
     @Benchmark
-    public void benchMark() {
-        deepestLeavesSum.deepestLeavesSum(graph1);
+    public int benchMark() {
+        return deepestLeavesSum.deepestLeavesSum(graph1);
     }
 
     public static void main(String[] args) throws Exception {
