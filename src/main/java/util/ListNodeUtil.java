@@ -6,6 +6,9 @@ public final class ListNodeUtil {
     }
 
     public static ListNode generateSinglyLinkedListFromArray(Integer[] srez) {
+        if (srez == null || srez.length == 0) {
+            return null;
+        }
         ListNode head = new ListNode(srez[0], null);
         ListNode current = head;
         for (int i = 1; i < srez.length; i++) {
