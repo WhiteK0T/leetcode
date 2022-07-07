@@ -1,7 +1,6 @@
 package medium;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Arrays;
 
 public class N128LongestConsecutiveSequence {
 
@@ -35,7 +34,23 @@ public class N128LongestConsecutiveSequence {
         }
         return max;*/
 
-        int max = 0;
+        if (nums.length == 0) return 0;
+        int currLongest = 1;
+        int longest = 0;
+        Arrays.sort(nums);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1]) {
+                continue;
+            } else if (nums[i] == nums[i - 1] + 1) {
+                currLongest++;
+            } else {
+                longest = Math.max(longest, currLongest);
+                currLongest = 1;
+            }
+        }
+        return Math.max(longest, currLongest);
+
+        /*int max = 0;
 
         Set<Integer> set = new HashSet<>();
         for (int i : nums) {
@@ -62,6 +77,6 @@ public class N128LongestConsecutiveSequence {
             max = Math.max(max, count);
         }
 
-        return max;
+        return max;*/
     }
 }
