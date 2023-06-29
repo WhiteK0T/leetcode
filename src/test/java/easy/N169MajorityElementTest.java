@@ -18,7 +18,7 @@ class N169MajorityElementTest {
         assertEquals(3, actual);
     }
 
-    /*  Example 1:
+    /*  Example 2:
     Input: nums = [2,2,1,1,1,2,2]
     Output: 2      */
     @Test
@@ -26,5 +26,25 @@ class N169MajorityElementTest {
         int[] nums = {2, 2, 1, 1, 1, 2, 2};
         int actual = n169MajorityElement.majorityElement(nums);
         assertEquals(2, actual);
+    }
+
+    /*  Example 3:
+    Input: nums = [6,3,6,4,6,4,6,3]
+    Output: 6      */
+    @Test
+    void majorityElement3() {
+        int[] nums = {6, 3, 6, 4, 6, 4, 6, 3};
+        int actual = n169MajorityElement.majorityElement(nums);
+        assertEquals(6, actual);
+    }
+
+    /*  Example 4:
+    Input: nums = [3,3,4]
+    Output: 6      */
+    @Test
+    void majorityElement4() {
+        int[] nums = {3, 3, 4};
+        int actual = n169MajorityElement.majorityElement(nums);
+        assertEquals(3, actual);
     }
 }
