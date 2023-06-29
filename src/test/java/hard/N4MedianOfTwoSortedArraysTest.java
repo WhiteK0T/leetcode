@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N4MedianOfTwoSortedArraysTest {
 
-    N4MedianOfTwoSortedArrays medianOfTwoSortedArrays = new N4MedianOfTwoSortedArrays();
+    private final N4MedianOfTwoSortedArrays medianOfTwoSortedArrays = new N4MedianOfTwoSortedArrays();
 
     /*
         Input: nums1 = [1,3], nums2 = [2]

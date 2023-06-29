@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N500KeyboardRowTest {
-    N500KeyboardRow keyboardRow = new N500KeyboardRow();
+    private final N500KeyboardRow keyboardRow = new N500KeyboardRow();
 
     /*
         Input: words = ["Hello","Alaska","Dad","Peace"]

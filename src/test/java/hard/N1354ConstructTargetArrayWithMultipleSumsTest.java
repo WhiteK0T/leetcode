@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N1354ConstructTargetArrayWithMultipleSumsTest {
 
-    N1354ConstructTargetArrayWithMultipleSums constructTargetArrayWithMultipleSums = new N1354ConstructTargetArrayWithMultipleSums();
+    private final N1354ConstructTargetArrayWithMultipleSums constructTargetArrayWithMultipleSums = new N1354ConstructTargetArrayWithMultipleSums();
 
     /*
         Input: target = [9,3,5]

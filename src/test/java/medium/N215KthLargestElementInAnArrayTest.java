@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class N215KthLargestElementInAnArrayTest {
 
-    static N215KthLargestElementInAnArray kthLargestElementInAnArray = new N215KthLargestElementInAnArray();
+    private final static N215KthLargestElementInAnArray kthLargestElementInAnArray = new N215KthLargestElementInAnArray();
 
     /*
         Input: nums = [3,2,1,5,6,4], k = 2

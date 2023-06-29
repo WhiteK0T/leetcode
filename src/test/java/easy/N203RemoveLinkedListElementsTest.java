@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 class N203RemoveLinkedListElementsTest {
 
-    N203RemoveLinkedListElements removeLinkedListElements = new N203RemoveLinkedListElements();
+    private final N203RemoveLinkedListElements removeLinkedListElements = new N203RemoveLinkedListElements();
 
     /*
         Input: head = [1,2,6,3,4,5,6], val = 6

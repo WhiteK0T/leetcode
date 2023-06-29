@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N665NonDecreasingArrayTest {
 
-    N665NonDecreasingArray nonDecreasingArray = new N665NonDecreasingArray();
+    private final N665NonDecreasingArray nonDecreasingArray = new N665NonDecreasingArray();
 
     /*
         Input: nums = [4,2,3]

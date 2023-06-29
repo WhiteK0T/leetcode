@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N3LongestSubstringWithoutRepeatingCharactersTest {
-    
-    N3LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new N3LongestSubstringWithoutRepeatingCharacters();
+
+    private final N3LongestSubstringWithoutRepeatingCharacters longestSubstringWithoutRepeatingCharacters = new N3LongestSubstringWithoutRepeatingCharacters();
 
     /*
         Input: s = "abcabcbb"

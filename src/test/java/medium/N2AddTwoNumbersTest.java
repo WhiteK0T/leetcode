@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N2AddTwoNumbersTest {
 
-    N2AddTwoNumbers addTwoNumbers = new N2AddTwoNumbers();
+    private final N2AddTwoNumbers addTwoNumbers = new N2AddTwoNumbers();
 
     /*
         Input: l1 = [2,4,3], l2 = [5,6,4]

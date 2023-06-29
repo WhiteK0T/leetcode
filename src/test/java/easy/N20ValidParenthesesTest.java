@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N20ValidParenthesesTest {
 
-    N20ValidParentheses validParentheses = new N20ValidParentheses();
+    private final N20ValidParentheses validParentheses = new N20ValidParentheses();
 
     /*
         Input: s = "()"

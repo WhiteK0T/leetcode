@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N14LongestCommonPrefixTest {
 
-    N14LongestCommonPrefix longestCommonPrefix = new N14LongestCommonPrefix();
+    private final N14LongestCommonPrefix longestCommonPrefix = new N14LongestCommonPrefix();
 
     /*
         Input: strs = ["flower","flow","flight"]

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N128LongestConsecutiveSequenceTest {
 
-    N128LongestConsecutiveSequence longestConsecutiveSequence = new N128LongestConsecutiveSequence();
+    private final N128LongestConsecutiveSequence longestConsecutiveSequence = new N128LongestConsecutiveSequence();
 
     /*
         Input: nums = [100,4,200,1,3,2]

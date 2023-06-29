@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N630CourseScheduleIIITest {
 
-    N630CourseScheduleIII courseScheduleIII = new N630CourseScheduleIII();
+    private final N630CourseScheduleIII courseScheduleIII = new N630CourseScheduleIII();
 
     /*
         Input: courses = [[100,200],[200,1300],[1000,1250],[2000,3200]]

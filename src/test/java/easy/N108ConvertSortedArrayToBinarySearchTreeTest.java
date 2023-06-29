@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N108ConvertSortedArrayToBinarySearchTreeTest {
 
-    N108ConvertSortedArrayToBinarySearchTree convertSortedArrayToBinarySearchTree = new N108ConvertSortedArrayToBinarySearchTree();
+    private final N108ConvertSortedArrayToBinarySearchTree convertSortedArrayToBinarySearchTree = new N108ConvertSortedArrayToBinarySearchTree();
 
     /*
         Input: nums = [-10,-3,0,5,9]

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N1528ShuffleStringTest {
 
-    N1528ShuffleString shuffleString = new N1528ShuffleString();
+    private final N1528ShuffleString shuffleString = new N1528ShuffleString();
 
     /*
         Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]

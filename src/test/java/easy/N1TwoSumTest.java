@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N1TwoSumTest {
 
-    N1TwoSum twoSum = new N1TwoSum();
+    private final N1TwoSum twoSum = new N1TwoSum();
 
     /*
         Input: nums = [2,7,11,15], target = 9

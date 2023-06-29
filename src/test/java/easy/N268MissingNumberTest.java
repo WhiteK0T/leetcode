@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N268MissingNumberTest {
 
-    N268MissingNumber missingNumber = new N268MissingNumber();
+    private final N268MissingNumber missingNumber = new N268MissingNumber();
 
     @Test
     void missingNumber1() {

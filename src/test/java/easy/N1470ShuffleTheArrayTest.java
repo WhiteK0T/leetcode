@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N1470ShuffleTheArrayTest {
 
-    N1470ShuffleTheArray shuffleTheArray = new N1470ShuffleTheArray();
+    private final N1470ShuffleTheArray shuffleTheArray = new N1470ShuffleTheArray();
 
     /*
         Input: nums = [2,5,1,3,4,7], n = 3

@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N1038BinarySearchTreeToGreaterSumTreeTest {
 
-    N1038BinarySearchTreeToGreaterSumTree binarySearchTreeToGreaterSumTree = new N1038BinarySearchTreeToGreaterSumTree();
+    private final N1038BinarySearchTreeToGreaterSumTree binarySearchTreeToGreaterSumTree = new N1038BinarySearchTreeToGreaterSumTree();
 
     /*
         Input: root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]

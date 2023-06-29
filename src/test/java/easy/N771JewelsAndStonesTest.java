@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N771JewelsAndStonesTest {
 
-    N771JewelsAndStones jewelsAndStones = new N771JewelsAndStones();
+    private final N771JewelsAndStones jewelsAndStones = new N771JewelsAndStones();
 
     /*
         Input: jewels = "aA", stones = "aAAbbbb"

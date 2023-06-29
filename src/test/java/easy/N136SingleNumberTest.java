@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N136SingleNumberTest {
 
-    N136SingleNumber singleNumber = new N136SingleNumber();
+    private final N136SingleNumber singleNumber = new N136SingleNumber();
 
     @Test
     void singleNumber() {

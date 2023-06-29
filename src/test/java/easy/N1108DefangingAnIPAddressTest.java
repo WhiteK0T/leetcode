@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N1108DefangingAnIPAddressTest {
 
-    N1108DefangingAnIPAddress defangingAnIPAddress = new N1108DefangingAnIPAddress();
+    private final N1108DefangingAnIPAddress defangingAnIPAddress = new N1108DefangingAnIPAddress();
 
     @Test
     void defangIPaddr1() {

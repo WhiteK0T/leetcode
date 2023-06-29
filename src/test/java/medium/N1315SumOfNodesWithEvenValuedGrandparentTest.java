@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N1315SumOfNodesWithEvenValuedGrandparentTest {
 
-    N1315SumOfNodesWithEvenValuedGrandparent sumOfNodesWithEvenValuedGrandparent = new N1315SumOfNodesWithEvenValuedGrandparent();
+    private final N1315SumOfNodesWithEvenValuedGrandparent sumOfNodesWithEvenValuedGrandparent = new N1315SumOfNodesWithEvenValuedGrandparent();
 
     /*
         Input: root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]

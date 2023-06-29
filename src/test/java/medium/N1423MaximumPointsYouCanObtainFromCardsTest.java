@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N1423MaximumPointsYouCanObtainFromCardsTest {
 
-    N1423MaximumPointsYouCanObtainFromCards maximumPointsYouCanObtainFromCards = new N1423MaximumPointsYouCanObtainFromCards();
+    private final N1423MaximumPointsYouCanObtainFromCards maximumPointsYouCanObtainFromCards = new N1423MaximumPointsYouCanObtainFromCards();
 
     /*
         Input: cardPoints = [1,2,3,4,5,6,1], k = 3

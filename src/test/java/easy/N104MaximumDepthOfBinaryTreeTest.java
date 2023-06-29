@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class N104MaximumDepthOfBinaryTreeTest {
 
-    N104MaximumDepthOfBinaryTree maximumDepthOfBinaryTree = new N104MaximumDepthOfBinaryTree();
+    private final N104MaximumDepthOfBinaryTree maximumDepthOfBinaryTree = new N104MaximumDepthOfBinaryTree();
 
     /*
         Input: root = [3,9,20,null,null,15,7]

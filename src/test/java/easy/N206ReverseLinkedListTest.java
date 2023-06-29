@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class N206ReverseLinkedListTest {
 
-    N206ReverseLinkedList reverseLinkedList = new N206ReverseLinkedList();
+    private final N206ReverseLinkedList reverseLinkedList = new N206ReverseLinkedList();
 
     /*
         Input: head = [1,2,3,4,5]

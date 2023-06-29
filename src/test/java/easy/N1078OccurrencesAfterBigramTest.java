@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N1078OccurrencesAfterBigramTest {
 
-    N1078OccurrencesAfterBigram occurrencesAfterBigram = new N1078OccurrencesAfterBigram();
+    private final N1078OccurrencesAfterBigram occurrencesAfterBigram = new N1078OccurrencesAfterBigram();
 
     /*
         Input: text = "alice is a good girl she is a good student", first = "a", second = "good"

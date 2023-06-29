@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class N406QueueReconstructionByHeightTest {
 
-    N406QueueReconstructionByHeight queueReconstructionByHeight = new N406QueueReconstructionByHeight();
+    private final N406QueueReconstructionByHeight queueReconstructionByHeight = new N406QueueReconstructionByHeight();
 
     /*
         Input: people = [[7,0],[4,4],[7,1],[5,0],[6,1],[5,2]]
@@ -30,7 +30,7 @@ class N406QueueReconstructionByHeightTest {
 
     /*
        Input: people = [[6,0],[5,0],[4,0],[3,2],[2,2],[1,4]]
-        Output: [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]
+       Output: [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]
     */
     @Test
     void reconstructQueue2() {
