@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class N242ValidAnagramTest {
 
-    private static final N242ValidAnagram validAnagram = new N242ValidAnagram();
+    private static final N242ValidAnagram VALID_ANAGRAM = new N242ValidAnagram();
 
     /*  Example 1:
         Input: s = "anagram", t = "nagaram"
@@ -17,7 +17,7 @@ public class N242ValidAnagramTest {
         String s = "anagram";
         String t = "nagaram";
         boolean expected = true;
-        boolean actual = validAnagram.isAnagram(s, t);
+        boolean actual = VALID_ANAGRAM.isAnagram(s, t);
         assertEquals(expected, actual);
     }
 
@@ -29,42 +29,42 @@ public class N242ValidAnagramTest {
         String s = "rat";
         String t = "car";
         boolean expected = false;
-        boolean actual = validAnagram.isAnagram(s, t);
+        boolean actual = VALID_ANAGRAM.isAnagram(s, t);
         assertEquals(expected, actual);
     }
 
     @Benchmark
     public boolean benchMark() {
-        return validAnagram.isAnagram("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagram("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkSort() {
-        return validAnagram.isAnagramSort("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramSort("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkEnglishLetter() {
-        return validAnagram.isAnagramEnglishLetter("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramEnglishLetter("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkMap() {
-        return validAnagram.isAnagramMap("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramMap("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkMapV2() {
-        return validAnagram.isAnagramMapV2("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramMapV2("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkMapMerge() {
-        return validAnagram.isAnagramMapMerge("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramMapMerge("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 
     @Benchmark
     public boolean benchMarkStream() {
-        return validAnagram.isAnagramStream("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
+        return VALID_ANAGRAM.isAnagramStream("anagramqqqqqqqqqqtttwwwww", "nagaramqqqqqqqqqqtttwwwww");
     }
 }
