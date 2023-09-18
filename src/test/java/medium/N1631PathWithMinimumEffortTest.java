@@ -7,7 +7,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 class N1631PathWithMinimumEffortTest {
 
-    public static final N1631PathWithMinimumEffort PATH_WITH_MINIMUM_EFFORT = new N1631PathWithMinimumEffort();
+    private static final N1631PathWithMinimumEffort PATH_WITH_MINIMUM_EFFORT = new N1631PathWithMinimumEffort();
 
 
     /*  Example 1:
