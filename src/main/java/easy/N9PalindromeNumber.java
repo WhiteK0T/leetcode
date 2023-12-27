@@ -10,6 +10,8 @@ public class N9PalindromeNumber {
         -231 <= x <= 231 - 1
 
         Follow up: Could you solve it without converting the integer to a string?
+
+        https://leetcode.com/problems/palindrome-number/
      */
 
     public boolean isPalindrome(int x) {

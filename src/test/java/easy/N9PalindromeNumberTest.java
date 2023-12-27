@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 class N9PalindromeNumberTest {
 
-    public static final N9PalindromeNumber PALINDROME_NUMBER = new N9PalindromeNumber();
+    private static final N9PalindromeNumber PALINDROME_NUMBER = new N9PalindromeNumber();
 
     /*  Example 1:
         Input: x = 121
