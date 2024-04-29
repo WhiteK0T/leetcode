@@ -82,4 +82,12 @@ class N3LongestSubstringWithoutRepeatingCharactersTest {
         int expected = 3;
         assertEquals(expected, actual);
     }
+
+    @Test
+    void lengthOfLongestSubstring7() {
+        String input = "abcabcqwe";
+        int actual = longestSubstringWithoutRepeatingCharacters.lengthOfLongestSubstring(input);
+        int expected = 6;
+        assertEquals(expected, actual);
+    }
 }
